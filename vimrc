@@ -1,5 +1,5 @@
   set nocompatible 
-  set clipboard autoselect
+  "set clipboard autoselect
 	set mouse=a
 	scriptencoding utf-8
 	set ignorecase
