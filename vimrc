@@ -14,6 +14,15 @@
 "set guifont=Monaco\ 10
 "Visual - General
 	highlight Normal guifg=gray guibg=black
+
+  Bundle 'delimitMate.vim' 
+  Bundle 'php.vim'
+  Bundle 'tpope/vim-endwise'
+  Bundle 'tpope/vim-fugitive'
+  Bundle 'tpope/vim-haml'
+  Bundle 'tpope/vim-markdown'
+  Bundle 'scrooloose/syntastic'
+
 	syntax on
   set wildmenu
 	set hlsearch
