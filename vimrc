@@ -1,3 +1,5 @@
+ set rtp+=~/.vim/bundle/vundle/
+  call vundle#rc()
   set nocompatible 
   "set clipboard autoselect
 	set mouse=a
@@ -9,13 +11,13 @@
   filetype plugin indent on     
   set autoindent
   set backspace=indent,eol,start
-  "set guifont=Mono\ Space\ 10
+"set guifont=Monaco\ 10
 "Visual - General
 	highlight Normal guifg=gray guibg=black
 	syntax on
   set wildmenu
 	set hlsearch
-  colorscheme railscasts 
+  colorscheme railscasts
 "Other
 	set noexpandtab
 	set number
