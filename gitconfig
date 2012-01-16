@@ -1,0 +1,17 @@
+[user]
+	name = Krzysiek
+	email = qrooel@gmail.com
+
+[alias]
+  ci = commit
+  s = status
+  d = diff
+  c = checkout
+  b = branch
+  l = log
+
+[color]
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
