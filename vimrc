@@ -17,7 +17,7 @@
   " set completeopt	
 	set guioptions+=c
   filetype plugin indent on     
-  set autoindent
+"set autoindent
   set backspace=indent,eol,start
 "set guifont=Monaco\ 10
 "Visual - General
@@ -32,6 +32,8 @@
   Bundle 'scrooloose/syntastic'
   Bundle 'jpo/vim-railscasts-theme'
   Bundle 'scrooloose/nerdtree'
+  Bundle 'tpope/vim-rails'
+  Bundle 'tpope/vim-commentary'
 
 	syntax on
   set wildmenu
