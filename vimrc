@@ -6,25 +6,35 @@
 
   " let Vundle manage Vundle
   " " required! 
-   Bundle 'gmarik/vundle'
+
+  call vundle#rc()
   set nocompatible 
   "set clipboard autoselect
 	set mouse=a
 	scriptencoding utf-8
 	set ignorecase
 	set complete+=k
-	set completeopt	
+  " set completeopt	
 	set guioptions+=c
   filetype plugin indent on     
   set autoindent
   set backspace=indent,eol,start
-  "set guifont=Mono\ Space\ 10
+"set guifont=Monaco\ 10
 "Visual - General
 	highlight Normal guifg=gray guibg=black
+
+  Bundle 'delimitMate.vim' 
+  Bundle 'php.vim'
+  Bundle 'tpope/vim-endwise'
+  Bundle 'tpope/vim-fugitive'
+  Bundle 'tpope/vim-haml'
+  Bundle 'tpope/vim-markdown'
+  Bundle 'scrooloose/syntastic'
+
 	syntax on
   set wildmenu
 	set hlsearch
-  colorscheme railscasts 
+  colorscheme railscasts
 "Other
 	set noexpandtab
 	set number
