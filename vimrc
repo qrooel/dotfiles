@@ -30,6 +30,8 @@
   Bundle 'tpope/vim-haml'
   Bundle 'tpope/vim-markdown'
   Bundle 'scrooloose/syntastic'
+  Bundle 'jpo/vim-railscasts-theme'
+  Bundle 'scrooloose/nerdtree'
 
 	syntax on
   set wildmenu
