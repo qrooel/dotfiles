@@ -102,4 +102,6 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
+export EDITOR=/usr/bin/g
+
 [[ -s "/home/qrooel/.rvm/scripts/rvm" ]] && source "/home/qrooel/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*

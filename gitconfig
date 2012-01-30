@@ -1,5 +1,5 @@
 [user]
-	name = Krzysiek
+  name = "Krzysztof Płachta"
 	email = qrooel@gmail.com
 
 [alias]
@@ -15,3 +15,5 @@
   diff = auto
   interactive = auto
   status = auto
+[core]
+	editor = vim
