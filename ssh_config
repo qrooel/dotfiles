@@ -1,0 +1,13 @@
+Host ac
+  User qrooel
+  Hostname ac.vipserv.org
+Host jumski
+  User qrooel
+  Hostname jumski
+Host akra
+  User gitolite 
+  Hostname 213.128.141.170 
+  Port 9022
+Host akra_server
+  User beta
+  Hostname 213.238.59.32 
