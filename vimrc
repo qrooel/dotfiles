@@ -11,6 +11,11 @@
   set nocompatible 
   set noswapfile
   set nowritebackup
+  set timeoutlen=80
+  set ttimeoutlen=100
+  set iskeyword+=?
+  set iskeyword+=!
+  set noesckeys
 
   "set clipboard autoselect
 	set mouse=a
