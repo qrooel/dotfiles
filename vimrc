@@ -9,6 +9,9 @@
 
   call vundle#rc()
   set nocompatible 
+  set noswapfile
+  set nowritebackup
+
   "set clipboard autoselect
 	set mouse=a
 	scriptencoding utf-8
@@ -27,6 +30,7 @@
   Bundle 'php.vim'
   Bundle 'tpope/vim-endwise'
   Bundle 'tpope/vim-fugitive'
+  Bundle 'tpope/vim-surround'
   Bundle 'tpope/vim-haml'
   Bundle 'tpope/vim-markdown'
   Bundle 'scrooloose/syntastic'
