@@ -35,6 +35,10 @@
   Bundle 'scrooloose/nerdtree'
   Bundle 'tpope/vim-rails'
   Bundle 'tpope/vim-commentary'
+  Bundle 'paulyg/Vim-PHP-Stuff'
+  Bundle 'tsaleh/vim-matchit'
+  Bundle 'godlygeek/tabular' 
+  Bundle 'tpope/vim-unimpaired' 
 
 	syntax on
   set wildmenu
