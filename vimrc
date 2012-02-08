@@ -38,15 +38,21 @@
   Bundle 'tpope/vim-surround'
   Bundle 'tpope/vim-haml'
   Bundle 'tpope/vim-markdown'
+  Bundle 'tpope/vim-surround'
   Bundle 'scrooloose/syntastic'
   Bundle 'jpo/vim-railscasts-theme'
   Bundle 'scrooloose/nerdtree'
   Bundle 'tpope/vim-rails'
   Bundle 'tpope/vim-commentary'
+  Bundle 'paulyg/Vim-PHP-Stuff'
+  Bundle 'tsaleh/vim-matchit'
+  Bundle 'godlygeek/tabular' 
+  Bundle 'tpope/vim-unimpaired' 
 
 	syntax on
   set wildmenu
 	set hlsearch
+  set t_Co=256
   colorscheme railscasts
 "Other
 	set noexpandtab
