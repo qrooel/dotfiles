@@ -68,7 +68,6 @@ esac
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    alias ls='ls --color=auto'
     #alias dir='dir --color=auto'
     #alias vdir='vdir --color=auto'
 
@@ -105,3 +104,7 @@ fi
 export EDITOR=/usr/bin/g
 
 [[ -s "/home/qrooel/.rvm/scripts/rvm" ]] && source "/home/qrooel/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+alias ls='ls --color=auto'
+PS1='\[\e[1;33m\][\u@\h \W]\$\[\e[0m\] '
+alias tmux="TERM=screen-256color-bce tmux"
