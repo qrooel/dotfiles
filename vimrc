@@ -43,11 +43,12 @@
   Bundle 'jpo/vim-railscasts-theme'
   Bundle 'scrooloose/nerdtree'
   Bundle 'tpope/vim-rails'
-  Bundle 'tpope/vim-commentary'
+  Bundle 'tomtom/tcomment_vim'
   Bundle 'paulyg/Vim-PHP-Stuff'
   Bundle 'tsaleh/vim-matchit'
   Bundle 'godlygeek/tabular' 
   Bundle 'tpope/vim-unimpaired' 
+  Bundle 'SirVer/ultisnips' 
 
 	syntax on
   set wildmenu
