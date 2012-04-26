@@ -13,6 +13,7 @@
   set nowritebackup
   set timeoutlen=80
   set ttimeoutlen=100
+  set colorcolumn=80
   set iskeyword+=?
   set iskeyword+=!
   set noesckeys
@@ -56,6 +57,7 @@
   set t_Co=256
   colorscheme railscasts
 "Other
+
 	set noexpandtab
 	set number
 	set spell
