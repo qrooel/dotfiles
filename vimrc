@@ -13,7 +13,6 @@
   set nowritebackup
   set timeoutlen=80
   set ttimeoutlen=100
-  set colorcolumn=80
   set iskeyword+=?
   set iskeyword+=!
   set noesckeys
@@ -23,6 +22,8 @@
 	scriptencoding utf-8
 	set ignorecase
 	set complete+=k
+  set cc=80
+  set textwidth=80
   " set completeopt	
 	set guioptions+=c
   filetype plugin indent on     
@@ -50,6 +51,7 @@
   Bundle 'godlygeek/tabular' 
   Bundle 'tpope/vim-unimpaired' 
   Bundle 'SirVer/ultisnips' 
+  Bundle 'vim-scripts/taglist.vim'
 
 	syntax on
   set wildmenu
@@ -82,9 +84,12 @@
   set guioptions-=t 
 " mapowania
   nmap <silent> <C-D> :NERDTreeToggle<CR>
+  nnoremap <silent> <F8> :TlistToggle<CR>
 
   map <C-V> "+gP
   cmap <C-V> <C-R>+
+  cmap W w
+  cmap Q q
   vnoremap <C-C> "+y
 
 "  vmap <C-X> "+x
@@ -107,3 +112,5 @@
   augroup filetypedetect 
   au! BufRead,BufNewFile *.m,*.oct setfiletype octave 
   augroup END 
+
+  hi ColorColumn guibg=#3F3F3F
