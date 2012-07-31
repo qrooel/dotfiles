@@ -9,8 +9,6 @@
 
   call vundle#rc()
   set nocompatible 
-  set noswapfile
-  set nowritebackup
   set timeoutlen=80
   set ttimeoutlen=100
   set iskeyword+=?
@@ -52,8 +50,20 @@
   Bundle 'tpope/vim-unimpaired' 
   Bundle 'SirVer/ultisnips' 
   Bundle 'vim-scripts/taglist.vim'
+  Bundle 'kchmck/vim-coffee-script'
+  Bundle 'Lokaltog/vim-powerline'
 
-	syntax on
+  " Lokaltog / vim-powerline
+  let g:Powerline_symbols = 'fancy'
+  set fillchars+=stl:\ ,stlnc:\
+
+  filetype plugin indent on      " required! 
+  filetype off                   " required!
+  filetype indent on             " Enable filety
+
+  autocmd User Rails Rnavcommand javascripts app/assets/javascripts/ -suffix=.js,.js.erb,.js.coffee,.js.coffee.erb
+
+	syntax on                   "syntax gighlight
   set wildmenu
 	set hlsearch
   set t_Co=256
@@ -114,3 +124,10 @@
   augroup END 
 
   hi ColorColumn guibg=#3F3F3F
+
+  " NO SWAP FILES 
+  set noswapfile
+  set nowritebackup
+
+
+
