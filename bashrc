@@ -76,6 +76,8 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
+eval `dircolors ~/.dircolors`
+
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
@@ -109,3 +111,5 @@ export EDITOR=/usr/bin/g
 alias ls='ls --color=auto'
 PS1='\[\e[1;33m\][\u@\h \W]\$\[\e[0m\] '
 alias tmux="TERM=screen-256color-bce tmux"
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
